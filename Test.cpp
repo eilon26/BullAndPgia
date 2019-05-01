@@ -54,7 +54,7 @@ int main() {
 		}
 
 		testcase.setname("play with illegal length of string");
-		testcase.CHECK_THROWS(play(randy, smarty, 0, 100));
+		testcase.CHECK_THROWS(play(randy, smarty, -1, 100));
 
 /* *************************************************************************** */
 /* ========================= Long Algorithm ================================== */
