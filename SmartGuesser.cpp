@@ -140,7 +140,7 @@ void SmartGuesser::learnShort(string calculateBullAndPgia_ans) {
  }
 void SmartGuesser::startNewGameShort(unsigned int length) { 
 	AllPerms.clear();
-	this->length = length;//bullpgia::Guesser::startNewGame(length);
+	bullpgia::Guesser::startNewGame(length);
 	unsigned int max = pow(10,length);
 
 	for ( unsigned int i=0;i<max;i++){
